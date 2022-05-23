@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: #4b96ed;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    width: 100vw;
+    height: 180px;
+}
+
+.background > .logo {
+    width: 300px;
+    margin-top: 6%;
+    margin-left: 1%;
+
+}
+
+main {
+    margin-left: 1%;
+    width: 70%;
+    margin: auto;
+}
+
+.head-container {
+    margin-top: 30px;
+}
+
+.head-container > .head-line {
+    font-size: 60px;
+}
+
+.head-container > .author-date {
+    color: rgb(165, 162, 162);
+    margin-bottom: 30px;
+}
+
+.author {
+    color: rgb(98, 210, 247);
+}
+
+.date {
+    font-size: 13px;
+}
+
+.tim-photo {
+    width: 48%;
+    height: 500px;
+}
+
+.photo-description {
+    font-size: 13px;
+}
+
+p, ul, table {
+    margin-bottom: 20px;
+}
+
+article > ul {
+    margin-left: 2%;
+}
+
+.marker {
+    background-color: rgb(206, 255, 100);
+}
+
+thead {
+    background-color: #4b96ed;
+    color: rgb(255, 255, 255);
+}
+
+.colorata {
+    background-color: #00ffff;
+}
+
+footer {
+    margin-left: 1%;
+    width: 70%;
+    margin: auto;
+}
+
+footer > .footer-title {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+footer > .footer-img {
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+footer > .footer-img1 {
+   background-image: url(../img/graph.jpg); 
+}
+
+footer > .footer-img2 {
+    background-image: url(../img/monitor.jpg);
+}
