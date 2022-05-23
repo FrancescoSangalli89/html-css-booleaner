@@ -19,8 +19,11 @@
 
 }
 
-.head-container {
+main {
     margin-left: 1%;
+}
+
+.head-container {
     margin-top: 30px;
 }
 
@@ -48,4 +51,25 @@
 
 .photo-description {
     font-size: 13px;
+}
+
+p, ul, table {
+    margin-bottom: 20px;
+}
+
+article > ul {
+    margin-left: 2%;
+}
+
+.marker {
+    background-color: rgb(206, 255, 100);
+}
+
+thead {
+    background-color: #4b96ed;
+    color: rgb(255, 255, 255);
+}
+
+.colorata {
+    background-color: #00ffff;
 }
