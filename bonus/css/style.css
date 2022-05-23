@@ -11,11 +11,14 @@
     height: 180px;
 }
 
-.background > .logo {
+.logo-container {
+    width: 70%;
+    margin: auto;
+}
+
+.background .logo {
     width: 300px;
-    margin-top: 6%;
-    position: relative;
-    left: 200px;
+    margin-top: 7%;
 }
 
 main {
