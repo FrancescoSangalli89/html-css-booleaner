@@ -83,7 +83,7 @@ footer > .footer-title {
     margin-bottom: 15px;
 }
 
-.footer-img {
+footer > .footer-img {
     width: 250px;
     height: 250px;
     color: white;
