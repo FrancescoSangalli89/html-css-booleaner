@@ -11,15 +11,15 @@
     height: 180px;
 }
 
-.background > .logo {
+.background .logo {
     width: 300px;
-    margin-top: 6%;
+    margin-top: 7%;
     margin-left: 1%;
-
 }
 
 main {
     margin-left: 1%;
+    margin-right: 1%;
 }
 
 .head-container {
@@ -27,7 +27,7 @@ main {
 }
 
 .head-container > .head-line {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .head-container > .author-date {
@@ -45,7 +45,7 @@ main {
 
 .tim-photo {
     width: 48%;
-    height: 500px;
+    height: 450px;
 }
 
 .photo-description {
@@ -57,38 +57,49 @@ p, ul, table {
 }
 
 article > ul {
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 .marker {
-    background-color: rgb(206, 255, 100);
+    background-color: #fffc64;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 thead {
     background-color: #4b96ed;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+    text-align: left;
 }
 
-.colorata {
-    background-color: #00ffff;
+.colonna1, .colonna2 {
+    width: 20%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b1e4f2;
 }
 
 footer {
     margin-left: 1%;
+    margin-right: 1%;
 }
 
 footer > .footer-title {
-    color: gray;
+    color: #808080;
     margin-bottom: 15px;
 }
 
 footer > .footer-img {
     width: 250px;
-    height: 250px;
+    height: 200px;
     color: white;
     margin-bottom: 20px;
     padding-top: 1%;
     padding-left: 1%;
+    font-weight: bold;
 }
 
 footer > .footer-img1 {

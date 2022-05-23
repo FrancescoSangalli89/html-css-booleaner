@@ -11,7 +11,7 @@
     height: 180px;
 }
 
-.logo-container {
+.background > .logo-container {
     width: 70%;
     margin: auto;
 }
@@ -22,7 +22,6 @@
 }
 
 main {
-    margin-left: 1%;
     width: 70%;
     margin: auto;
 }
@@ -49,7 +48,6 @@ main {
 }
 
 .tim-photo {
-    width: 48%;
     height: 350px;
 }
 
@@ -83,8 +81,8 @@ thead {
     width: 20%;
 }
 
-tr:nth-child(even) {
-    background-color: #00ffff;
+tbody tr:nth-child(odd) {
+    background-color: #b1e4f2;
 }
 
 footer {
@@ -100,11 +98,12 @@ footer > .footer-title {
 
 footer > .footer-img {
     width: 250px;
-    height: 250px;
+    height: 200px;
     color: white;
     margin-bottom: 20px;
     padding-top: 1%;
     padding-left: 1%;
+    font-weight: bold;
 }
 
 footer > .footer-img1 {
