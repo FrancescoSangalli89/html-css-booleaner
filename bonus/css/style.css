@@ -11,7 +11,7 @@
     height: 180px;
 }
 
-.background > .logo-container {
+.background > .logo-container, main, footer {
     width: 70%;
     margin: auto;
 }
@@ -19,11 +19,6 @@
 .background .logo {
     width: 300px;
     margin-top: 7%;
-}
-
-main {
-    width: 70%;
-    margin: auto;
 }
 
 .head-container {
@@ -83,12 +78,6 @@ thead {
 
 tbody tr:nth-child(odd) {
     background-color: #b1e4f2;
-}
-
-footer {
-    margin-left: 1%;
-    width: 70%;
-    margin: auto;
 }
 
 footer > .footer-title {
