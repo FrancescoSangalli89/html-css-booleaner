@@ -73,3 +73,27 @@ thead {
 .colorata {
     background-color: #00ffff;
 }
+
+footer {
+    margin-left: 1%;
+}
+
+footer > .footer-title {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.footer-img {
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer > .footer-img1 {
+   background-image: url(../img/graph.jpg); 
+}
+
+footer > .footer-img2 {
+    background-image: url(../img/monitor.jpg);
+}
