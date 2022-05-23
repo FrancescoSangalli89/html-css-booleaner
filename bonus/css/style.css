@@ -16,7 +16,8 @@
     width: 300px;
     margin-top: 6%;
     margin-left: 1%;
-
+    position: relative;
+    left: 200px;
 }
 
 main {
@@ -48,7 +49,7 @@ main {
 
 .tim-photo {
     width: 48%;
-    height: 500px;
+    height: 350px;
 }
 
 .photo-description {
