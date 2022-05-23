@@ -88,6 +88,8 @@ footer > .footer-img {
     height: 250px;
     color: white;
     margin-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
 }
 
 footer > .footer-img1 {
