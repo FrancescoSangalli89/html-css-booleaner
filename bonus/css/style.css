@@ -18,7 +18,7 @@
 
 .background .logo {
     width: 300px;
-    margin-top: 7%;
+    margin-top: 70px;
 }
 
 .head-container {
@@ -56,10 +56,6 @@ p, ul, table {
 
 article > ul {
     margin-left: 1%;
-}
-
-.marker {
-    background-color: #fffc64;
 }
 
 table {
